@@ -1,0 +1,333 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+<head>
+  <script>
+    function addWordSpacing() {
+      var paragraph = document.getElementById("myParagraph");
+      var text = paragraph.innerText;
+      var words = text.split(" "); // 공백을 기준으로 단어 분리
+      var result = "";
+      for (var i = 0; i < words.length; i++) {
+        var word = words[i];
+        if (word.endsWith("’")) {
+          result += word + " "; // 단어가 따옴표로 끝나면 공백 추가
+        } else {
+          result += word + "\u00A0"; // 그 외 단어에는 유니코드 공백 문자(&nbsp;) 추가
+        }
+      }
+      paragraph.innerHTML = result;
+    }
+    </script>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>모두맘modumom</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.transitions.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/line-icon.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body onload="addWordSpacing">
+<!-- header section -->
+<section class="banner" role="banner">
+  <header id="header">
+    <div class="header-content"> <img src="images/modumomLogoB.png" style="width: 120px; margin-left: 5%;" alt="">
+      <!-- navigation section  -->
+      <div style="padding-top: 10px; margin-right: 3%;">     
+        <nav>
+        <ul>
+            <li><a href="#overview">서비스소개</a></li>
+            <li><a href="#about">회사소개</a></li>
+        </ul>
+    </nav>
+      </div>
+    </div>
+    <!-- navigation section  --> 
+  </header>
+  <!-- banner text section-->
+  <div id="banner" class="container">
+    <div>
+      <div class="banner-text">
+        <h3>임신 출산 필수 앱</h3>
+        <h1>요즘 엄마 아빠를 위한<br>임신, 출산, 육아의 모든 것</h1>
+        <div class="banner-btn">
+        <a href="https://play.google.com/store/apps/details?id=com.modumom.mobileapp.selfnamebase&hl=ko&gl=US"><img src="images/google.png" style="width: 242px;"></a> <a href="https://apps.apple.com/kr/app/%EB%AA%A8%EB%91%90%EB%A7%98-%EB%84%A4%EC%9D%B4%EB%B0%8D/id1227564158"><img src="images/apps.png" style="width: 242px;"></a> </div>
+      </div>
+      <!-- banner text section--> 
+    </div>
+  </div>
+</section>
+<!-- header section --> 
+<!-- overview section -->
+<section id="overview" class="section overview">
+  <div class="container">
+    <div class="row">
+      <div class="text-left">
+          <h3 style="color: #4285F4;">작명</h3>
+          <h2 class="section-title"><span>부모가 주는 첫 선물, <br>아기이름</span></h2>
+        <br>
+        <p>‘아기이름’ 작명은 ‘한국 성명학 전문가 협회’에서 공인한 체계적인 서비스로, 실제 전문 작명소, 철학관 등에서 제공하는 만세력과 동일한 수준의 정보를 제공합니다.</p>
+    </div><img src="images/feature-mobile.png"></div></div>
+</section>
+
+<!-- overview section --> 
+<!-- feature section 1 -->
+<section id="features" class="section features1">
+  <div class="container">
+    <div class="row">
+      <img src="images/feature-mobile.png"> 
+      <div class="text-right">
+    <!-- class="img-responsive"  -->
+    <h3 style="color: #4285F4;">운세</h3>
+        <h2 class="section-title"><span>우리 아이 첫 사주</span></h2><br>
+        <p>‘우리 아기 첫 사주’ 서비스는 아기의  특성, 재물, 진로와 교육, 재능에 대한 소중한 정보를 제공하여 미래를 더욱 밝게 이끌어 줍니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- feature section 1 --> 
+
+
+
+<!-- feature section 2 -->
+<section id="overview" class="section overview">
+  <div class="container">
+    <div class="row">
+      <div class="text-left">
+        <h3 style="color: #4285F4;">교육</h3>
+        <h2 class="section-title"><span>클래스 101</span></h2>
+        <br>
+        <p>모두맘은 온/오프라인에서 산모님들을 위한 교육을 통해 지식을 공유하고, 친목과 다양한 선물을 받을 수 있는 특별한 경험을 제공합니다.</p>
+    </div><img src="images/feature-mobile.png"></div></div>
+</section>
+
+<!-- feature section 2 --> 
+
+
+<section id="features" class="section features1">
+  <div class="container">
+    <div class="row">
+      <img src="images/feature-mobile.png"> <div class="text-right">
+    <!-- class="img-responsive"  -->
+    <h3 style="color: #4285F4;">알면 좋은</h3>
+
+        <h2 class="section-title"><span>유용한 정부 정책과 <br> 꿀잼 육아스토리</span></h2><br>
+        <p>유용한 정보정책을 한곳에 모아모아 재밌는 육아스토리를 카드 뉴스로 보실 수 있습니다.</p>
+        </div>
+      </div>
+    </div>
+      </section>
+  
+
+    <section id="overview" class="section overview">
+      <div class="container">
+        <div class="row">
+          <div class ="text-left">
+            <h2 class="section-title"><span>체험단</span></h2>
+            <br>
+            <p>모두맘 체험단은 브랜드의 제품을 체험하거나, 
+              방문하여 서비스를 체험하는 모습을 촬영하여 
+              자신의 SNS에 포스팅하는 캠페인 입니다.</p>
+          </div>
+          <img src="images/feature-mobile.png"> 
+          </div>
+        </div>
+    </section>
+
+<!-- screen shots slider section-->
+<section id="screens" class="section screens">
+  <div class="container" id="review">
+    <div class="row">
+      <div class="text-center">
+        <h2 class="section-title"><span>같은 고민을 하는 우리들의 <br>진짜 후기를 만나보세요</span></h2>
+        <span>*모두맘네이밍에서 사용한 산모님들의 소중하고 감사한 실제 후기입니다.</span><br><br><h1>  </h1>
+      </div>
+    </div>
+  </div>
+<!-- feature section 2 --> 
+  <!-- owl-carousel starts -->
+  <div id="owl-demo"  class="container">
+    <!-- class="owl-carousel" -->
+    <div class="item"  >
+      <div class="star">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+      </div>
+      1월에 태어날 우리 아기 이름 어떻게
+      지을까  고민중이었는데 작명소는 대부분 15만원부터더라구요ㅠㅠ 
+       작명어플 모두맘 우연히 알게됐는데 착한 가격에 사용도 간편해서 만족입니다~
+        특히 저희 부부는 아기 한글이름 음은 다 정해놔서 한글 이름에 따라
+        사주에 맞는 한자를 정해주는 코너가 도움이 많이 됐어요 :)
+    </div>
+    <div class="item">
+      <div class="star">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+      </div>
+작명어플 중엔 최고인거같아요. 아기 이름 짓기 고민이었는데 좋은 어플 추천받고 사용해보니 후기까지 쓰게되었네요 작명 뿐아니라 자녀와 함께 나눌 수 있는 소소한 정보까지 있어서 어플을 자주 들여다 보게 되요 ^^ 특히 산모 교실 정보도 알 수 있어 유용합니다 ^.^
+    </div>
+    <div class="item">
+      <div class="star">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+      </div>
+12월초 출산 예정인 예비망인데요.
+      아기 이름 저랑 남편이 지어야 되는데 예정일이 8일밖에 안남아서 안그래도 고민중이였어요.. 평생가는 이름이니만큼 신중하고 고민이 많이 되더라구요
+      작명업체를 직접 찾아가는것은 부담스러웠는데 이런 어플로 통해 작명할 수 있느이 편하고 좋을것 같아요.
+      리뷰보니 평도 좋고 어플 둘러보니 깔끔하게 잘되어있어서 아기 태어나면 사용해보려고해요^^
+      </div>
+    <div class="item">
+      <div class="star">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <imsrc="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+      </div>
+곧 태어날 아기의 이름 때문에 고민하던 중 모두맘네이밍을 우연히 알게되어 설치했는데 너무 좋네요! 굳이 작명소에서 큰 돈 주고 작명할 필요없고 쉽게 예쁜 이름 선택할 수 있어서 재미있고 좋더라고요. 이름풀이도 있어서 주변 친구들한테도 추천하니 재밌다며 반응도 굿~ㅋ 산모교실이외 여성강좌 안내도 있어서 유용하게 이용합니다^^*
+    </div>
+    <div class="item">
+      <div class="star">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+      </div>
+애기가 태어나고 이름을 어떻게 지을가 무지 고민을 했는데, 어플을 통해서 사주에 맞는 한자이름과 발음오행 및 풀이가 제공되는 모두맘 네이밍으로 이름을 정했습니다. 
+      사주에 맞는 좋은 이름으로 건강하고 착한아이로 자라는데 조금이나마 애기에게 도움이 된다면 좋을거 같네요. 
+      수고하세요</div>
+    <!-- <div class="item">
+      <div class="star">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+      </div>
+맘스데이 산모교실덕에 좋은 어플 알아가요~ <br>
+      신랑이랑 저랑 머리싸매고 고민도하고 <br>가족들에게 물어보고했지만 아기가 평생 가지고 가는게 이름인지라 함부로짓기 어렵더라구요ㅠㅜ<br>
+      모두맘네이밍어플통해서 작명꿀팁도 얻어갑니다~<br>
+      앞으로도 좋은 서비스 제공부탁합니다!
+      </div> -->
+    <div class="item">
+      <div class="star">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+      </div>
+곧 태어날 아이에게 지어줄 이름으로 무엇을 하면 좋을지 배우자와 고민이 많은데 이런 어플이 있다니 신기하기도하고 유용하게 쓰일 것 같네요~ 좋은 풀이 및 도움 부탁드려요. 부르기 쉽고 의미있는 예쁜이름이면 좋겠네요!! 임산부를 위한 다양한 정보도 많고 여러모로 사용하기 좋은 어플이네요. 추천!
+    </div>
+    <div class="item">
+      <div class="star">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+      </div>
+엄마들이라면 아이이름에 예민할 수 밖에 없는데 좋은 사이트 알게 되어서 너무 좋아요.
+      이름이 평생을 좌지우지 한다는데 좋은이름 지어서 꽃길만 걷길~~~~<br>
+      </div>
+    <div class="item">
+      <div class="star">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+      </div>
+쌍둥이라 아가들 태명부터 짓는게 어려웠는데 덕분에 쉽게 고민 해결 되었네요.
+      아빠 엄마 이름과 아기 정보를 넣으니 넘나 맘에 드는 태명이 나오네요.
+      작명소에 갈 필요 없이 전문가가 추천해주고 한자이름 좋은 뜻도 추천해주니 아주 좋습니다.
+      </div>
+    <div class="item">
+            <div class="star">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+        <img src="images/Star.png" alt="">
+      </div>
+어머머 이런 어플도 있다니! 아직 태명조차 정하지 못하고 있었는데 모두맘 네이밍에서 태명정했어요~^^ 아빠, 엄마의 출생년도와 출생시간까지 적어서 넣으니 더 믿음직스럽고 우리 아가 태어나도 태명이 이랬었다고 말해주기 좋을 것 같아요~^^ 아기 태어나면 멀고 비싼 작명소 갈 필요없이 꼭 모두맘 네이밍에서 지을꺼에요!!
+      광주 김민영</div>
+  </div>
+  <!-- owl-carousel starts --> 
+</section>
+
+<!--subscribe section -->
+<section>
+  <div class="last">
+    <!-- 앱다운1 -->
+    <div class="promotion" style="background-color: #f4f4f4;">
+      <div class ="container" >
+        <h3 style="font-weight: 300;">지금 모두맘과 함께하고<br>다양한 이벤트에 참여하세요!</h3>
+      
+      <div> <a href="https://play.google.com/store/apps/details?id=com.modumom.mobileapp.selfnamebase&hl=ko&gl=US&pli=1">
+      <img src="images/google.png" style="width: 242px;"></a> 
+      <a href="https://apps.apple.com/kr/app/%EB%AA%A8%EB%91%90%EB%A7%98-%EB%84%A4%EC%9D%B4%EB%B0%8D/id1227564158" ><img src="images/apps.png" style="width: 240px;"></a></div>
+      </div></div>
+      
+      <!-- 카톡상담2 -->
+  <div class="promotion" id="promotion2">
+    <div class ="container">
+      <h2 class=""><h3 style="font-weight: 300;">더 궁금하신 사항이 있다면,<br>언제든지 모두맘 고객센터로 연락주세요!</h3>
+    
+    <div > <a href="https://pf.kakao.com/_Tfxkjd"><img src="images/kakaochannel.png" style="width: 242px;"></a><img src="images/null.png" style="width: 240px;"></div>
+    </div></div>
+      
+
+<!--subscribe section --> 
+
+<!-- footer section-->
+<footer class="section footer">
+      <div class="container">
+        <p>
+        에프티앤씨(주) 대표이사 : 황영오 <br>
+        사업자등록번호 : 215-86-93288 | 통신판매업신고 : 2015-경기성남-1486 <br>
+        경기도 성남시 분당구 황새울로 200번길 36 (수내동, 분당동부루트빌딩), 1014 ~ 1015호 <br>
+        고객만족센터 : 1661- 7130 <br>
+        COPYRIGHT © 에프티앤씨(주) ALL RIGHTS RESERVED.
+        <ul class="footer-share">
+          <a href="#"><img src="images/facebook.png" alt="" width="50px" style="margin-right: 10px;"> </a>
+          <a href="#"><img src="images/blog.png" alt="" width="50px" style="margin-right: 10px;"></a>
+          <a href="#"><img src="images/insta.png" alt="" width="50px" style="margin-right: 10px;"></a>
+          <a href="#"><img src="images/kakao (2).png" alt="" width="50px" style="margin-right: 10px;"></a>
+        </ul>
+        </p>
+    </div>
+</div>
+</footer></section>
+<!-- footer section--> 
+<!-- Include JS files --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/jquery.subscribe.js"></script> 
+<script src="js/jquery.contact.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>
